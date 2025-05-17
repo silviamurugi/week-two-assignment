@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +11,9 @@ body{
     background:#efefef;
     color: #fff;
 }
-.header{
+header{
     width: 100%;
-    height: 220px;
+    height: 100vh;
     background-image: url(./images/bg-desktop-dark.jpg);
     background-size:cover;
     background-position:center;
@@ -29,10 +30,9 @@ body{
 
 .hero{
     display: flex;
-    width: 40%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-evenly;
     padding: 2em;
-    margin-left: 30%;
 }
 
 .hero h1{
@@ -48,10 +48,10 @@ body{
 
 .inputs{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 30%;
-    margin-left: 35%;
+    justify-content:flex-start;
+    align-items:center;
+    width: 100%;
+    max-width: 30%;
     border-radius: 5px;
     padding: 0 1em;
     background-color: #25273c;
@@ -75,7 +75,7 @@ body{
     width: 100%;
     max-width: 30%;
     
-    margin-top: -3em;
+    margin: 1em 0;
     border-radius: 5px;
     transition: background linear 0.5s ease;
     position: relative;
