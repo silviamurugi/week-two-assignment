@@ -10,12 +10,12 @@ light.addEventListener("click", ()=>{
         light.src = './images/icon-moon.svg';
         div.classList.add('bg-white');
         box.classList.add('bg-white');
-        body.style.backgroundColor = '#f2f2f2)';
+        body.style.backgroundColor = '#f2f2f2';
     } else {
         light.src = './images/icon-sun.svg';
         div.classList.remove('bg-white');
         box.classList.remove('bg-white');
-        body.style.backgroundColor = '#25272c';
+        body.style.backgroundColor = '#25272d';
     }
 });
 
