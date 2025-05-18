@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Todo app Challenge</title>
 </head>
+
 <body>
   <header>
     <div class="container">
-      <div class="hero">
-        <h1>TODO</h1>
-        <img src="./images/icon-sun.svg" alt="togglelight">
-      </div>
-      <div class="inputs">
-        <label class="custom-checkbox">
-          <input type="checkbox">
-          <span class="checkbox-indicator-1"></span>
-        </label>
-        <input type="text" placeholder="Currently Typing" class="enter">
+      <div class="header">
+        <div class="hero">
+          <h1>TODO</h1>
+          <img src="./images/icon-sun.svg" alt="togglelight">
+        </div>
+        <div class="inputs">
+          <label class="custom-checkbox">
+            <input type="checkbox">
+            <span class="checkbox-indicator-1"></span>
+          </label>
+          <input type="text" placeholder="Currently Typing" class="enter">
+        </div>
       </div>
 
       <div class="add">
-      <div class="tasks"></div>
-      <div class="footer">
-        <div class="content">
-          <p><span class="count">0</span> Items left</p>
-          <div class="toggle">
-            <p class="active">All</p>
-            <p class="uncomplete">Active</p>
-            <p class="task-completed">Completed</p>
+        <div class="tasks"></div>
+        <div class="footer">
+          <div class="content">
+            <p><span class="count">0</span> Items left</p>
+            <div class="toggle">
+              <p class="active">All</p>
+              <p class="uncomplete">Active</p>
+              <p class="task-completed">Completed</p>
+            </div>
+            <p class="clear">Clear Completed</p>
           </div>
-          <p class="clear">Clear Completed</p>
         </div>
       </div>
     </div>
-    </div>
   </header>
 </body>
+
 </html>
