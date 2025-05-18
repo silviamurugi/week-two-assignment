@@ -15,7 +15,7 @@ light.addEventListener("click", ()=>{
         light.src = './images/icon-sun.svg';
         div.classList.remove('bg-white');
         box.classList.remove('bg-white');
-        body.style.backgroundColor = '#25272d';
+        body.style.backgroundColor = '#25272c';
     }
 });
 
